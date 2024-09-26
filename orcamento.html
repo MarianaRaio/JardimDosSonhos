@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento - Jardim dos Sonhos</title>
+    <link rel="stylesheet" href="css/orcamento.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo senac.jpg" alt="Logo Jardim dos Sonhos" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Nós</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="orcamento.html">Orçamento</a></li>
+                <li><a href="#">Depoimentos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+
+        <section class="hero-banner">
+            <img src="images/banner.png">
+        </section>
+
+        <section class="orcamento-form">
+            <h2>ORÇAMENTO</h2>
+            <h3>Faça seu Orçamento Já!</h3>
+            <form>
+                <div class="top-form">
+                    <div class="top-form-left">
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+                        <div>
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" id="endereco" name="endereco">
+                        </div>
+                    </div>
+                    <div class="top-form-right">
+                        <div>
+                            <label for="data">Data:</label>
+                            <input type="date" id="data" name="data">
+                        </div>
+                        <div>
+                            <label for="observacoes">Observações:</label>
+                            <textarea id="observacoes" name="observacoes"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-form">
+                    <div class="bottom-form-left">
+                        <div>
+                            <label for="idade">Idade dos participantes:</label>
+                            <input type="text" id="idade" name="idade">
+                        </div>
+                        <div>
+                            <label for="evento">Tipo de evento:</label>
+                            <input type="text" id="evento" name="evento">
+                        </div>
+                    </div>
+                    <div class="bottom-form-right">
+
+                        <label>Tipo de serviço:</label>
+                        <div>
+                            <input type="radio" id="teatro" name="servico" value="teatro">
+                            <label for="teatro">Teatro</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="brinquedo" name="servico" value="brinquedo">
+                            <label for="brinquedo">Brinquedo</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="educativa" name="servico" value="educativa">
+                            <label for="educativa">Apresentação Educativa</label>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </form>
+            <button type="submit">Solicitar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-whatsapp"></i>
+        </div>
+        <p>Telefone: (XX) XXXXX-XXXX</p>
+
+    </footer>
+</body>
+
+</html>

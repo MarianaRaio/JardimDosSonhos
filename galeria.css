@@ -1,0 +1,132 @@
+/* Reseta margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+main {
+    flex: 1;
+}
+.logo {
+    width: 60px; /* Tamanho do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    top: 10px; /* Ajusta o espaço do topo */
+    left: 20px; /* Ajusta o espaço da esquerda */
+}
+header {
+    display: flex;
+    justify-content: flex-start; /* Centraliza a navegação horizontalmente */
+    align-items: center; /* Centraliza verticalmente o conteúdo, incluindo a logo */
+    padding: 10px;
+    background-color: #8a0c63;
+    height: 100px; /* Ajuste a altura do header conforme necessário */
+}
+nav {
+    flex : 1;
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.tela {
+    display: flex;
+    flex-direction: column;
+
+}
+.tela-header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.galerias {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* Galeria */
+.galeria {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.galeria h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.galeria-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.galeria-item img {
+    width: 150px;
+    height: 150px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+.galeria-item img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.galeria a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #8a0c63;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.galeria a:hover {
+    background-color: #6f0b4f;
+}
+
+footer {
+    background-color: #8a0c63;
+    padding: 20px;
+    text-align: center;
+}
+.social i{
+    font-size: 30px; /* Aumenta o tamanho do ícone */
+    margin-right: 15px; /* Espaçamento entre o ícone e o texto */
+    
+}

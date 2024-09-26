@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 60px; 
+    height: auto;
+    position: absolute; 
+    top: 10px; /* Ajusta o espaço do topo */
+    left: 20px; /* Ajusta o espaço da esquerda */
+}
+header {
+    display: flex;
+    justify-content: center; /* Centraliza a navegação horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px;
+    background-color: #8a0c63;
+    position: relative; /* Necessário para o logo se posicionar dentro do header */
+    height: 80px; /* Ajuste a altura do header conforme necessário */
+    text-align: center;
+}
+.hero-banner img {
+    width: 100%;
+    height: auto;
+}
+.tela {
+    display: flex;
+    justify-content: space-between; /* Espaçamento uniforme entre as colunas */
+    margin: 0 auto;
+    max-width: 1200px; /* Ajuste para o máximo de largura da tela */
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.sobre-nos, .servicos, .depoimentos {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Cada seção ocupa 30% da largura */
+}
+
+.sobre-nos {
+    text-align: left;
+}
+
+/* Estilos gerais da seção de serviços */
+.servicos {
+    text-align: center;
+}
+
+.servico {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para alinhar o ícone e o h3 */
+.servico-header {
+    display: flex;
+    align-items: center; /* Alinha o ícone verticalmente com o texto */
+    justify-content: center; /* Centraliza o conteúdo */
+    margin-bottom: 10px; /* Espaçamento entre o cabeçalho e o parágrafo */
+}
+
+.servico-header i {
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    color: #8a0c63; /* Cor do ícone */
+}
+
+/* Estilo dos botões */
+.botao-servico {
+    display: inline-block;
+    background-color: #8a0c63; /* Cor do botão */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.botao-servico:hover {
+    background-color: #6f0b4f; /* Cor ao passar o mouse */
+}
+
+.servico p {
+    margin: 10px 0; /* Espaçamento entre o texto e o botão */
+}
+
+
+.depoimentos {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.depoimento {
+    display: flex;
+    align-items: center; /* Alinha o ícone com o texto */
+    justify-content: flex-start; /* Mantém o ícone à esquerda */
+    flex-direction: column;
+    margin-bottom: 20px; /* Espaçamento entre os depoimentos */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o ícone */
+.depoimento i {
+    font-size: 50px; /* Aumenta o tamanho do ícone */
+    margin-right: 15px; /* Espaçamento entre o ícone e o texto */
+    color: #8a0c63; /* Cor do ícone */
+}
+
+/* Estiliza o texto do depoimento */
+.depoimento p {
+    font-size: 16px;
+    margin: 0;
+    text-align: left; /* Alinha o texto à esquerda */
+    color: #333;
+}
+
+.depoimento img{
+    width: 100%;
+}
+/* Estilos para os links e botões */
+a {
+    display: inline-block;
+    background-color: #8a0c63;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #6f0b4f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+section {
+    padding: 20px;
+}
+
+.sobre-nos, .depoimentos, .orcamento-form, .galeria {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #8a0c63;
+    padding: 20px;
+    text-align: center;
+}
+.social i{
+    font-size: 30px; /* Aumenta o tamanho do ícone */
+    margin-right: 15px; /* Espaçamento entre o ícone e o texto */
+    
+}
+ 

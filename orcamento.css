@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+main {
+    flex: 1;
+}
+.logo {
+    width: 60px; /* Tamanho do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    top: 10px; /* Ajusta o espaço do topo */
+    left: 20px; /* Ajusta o espaço da esquerda */
+}
+header {
+    display: flex;
+    justify-content: flex-start; /* Centraliza a navegação horizontalmente */
+    align-items: center; /* Centraliza verticalmente o conteúdo, incluindo a logo */
+    padding: 10px;
+    background-color: #8a0c63;
+    height: 100px; /* Ajuste a altura do header conforme necessário */
+}
+nav {
+    flex : 1;
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.orcamento-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.orcamento-form h2, .orcamento-form h3{
+    padding: 0.25rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.top-form, .bottom-form{
+    display: flex;
+    justify-content: flex-start;
+}
+.top-form-right, .top-form-left, .bottom-form-right, .bottom-form-left{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    min-height: 104px;
+    min-width: 350px;
+}
+.top-form-right div, .top-form-left div, .bottom-form-right div, .bottom-form-left div{
+    padding: 5px;
+}
+
+.orcamento-form button{
+    display: inline-block;
+    background-color: #8a0c63; /* Cor do botão */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.orcamento-form button:hover{
+    background-color: #6f0b4f; /* Cor ao passar o mouse */
+}
+
+
+footer {
+    background-color: #8a0c63;
+    padding: 20px;
+    text-align: center;
+}
+.social i{
+    font-size: 30px; /* Aumenta o tamanho do ícone */
+    margin-right: 15px; /* Espaçamento entre o ícone e o texto */
+    
+}
